@@ -1,0 +1,44 @@
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+    gap: 10px;
+    color: aliceblue;
+
+   
+  }
+
+  .grid-container > div {
+    background-color: red;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+ .sub-grid{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    
+ }
+ .sub-itemA {
+    background-color: blue;
+    border: 10px solid;
+    border-radius: 10px;
+    border-color: red;
+    color: aliceblue;
+ }
+ .sub-itemB {
+    background-color: blue;
+    border: 10px solid;
+    border-radius: 10px;
+    border-color: red;
+    color: aliceblue;
+ }
+ .sub-itemC {
+    background-color: blue;
+    border: 10px solid;
+    border-radius: 10px;
+    border-color: red;
+    color: aliceblue;
+ }
